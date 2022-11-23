@@ -4,14 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using SqliteTest.Model;
-using SqliteTest.Model;
-using SqliteTest;
 
-namespace SqliteTest.View
+
+namespace CRUD_com_SQLite.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Listagem : ContentPage
