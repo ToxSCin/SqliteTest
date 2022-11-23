@@ -1,5 +1,5 @@
 ﻿using SqliteTest.Model;
-using SqliteTest.Model;
+
 using SqliteTest;
 using System;
 using System.Collections.Generic;
