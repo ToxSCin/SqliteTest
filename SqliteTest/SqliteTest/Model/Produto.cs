@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 using SQLite;
+
 namespace SqliteTest.Model
 {
-    public class Produto
+    public class produto
     {
         [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
-
-        public string Descricao { get; set; }
-        public double Quantidade { get; set; }
-        public double Preco { get; set; }
+        public int id { get; set; }
+        public string descricao { get; set; }
+        public double preco { get; set; }
+        public double quantidade { get; set; }
     }
 }
