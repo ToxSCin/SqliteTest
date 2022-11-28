@@ -40,5 +40,10 @@ namespace SqliteTest.Helper
             string sql = "SELECT * FROM produto WHERE descricao LIKE '%" + q + "%' ";
            return _conn.QueryAsync<produto>(sql);
         }
+
+        internal Task<List<produto>> getAll()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

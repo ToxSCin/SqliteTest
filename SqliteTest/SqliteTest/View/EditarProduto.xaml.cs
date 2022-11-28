@@ -15,6 +15,8 @@ namespace SqliteTest.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class EditarProduto : ContentPage
     {
+       
+
         public EditarProduto()
         {
             InitializeComponent();

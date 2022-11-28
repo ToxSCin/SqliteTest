@@ -19,7 +19,19 @@
                         </Grid>
                     </ListView.Header>
                     <ListView.ItemTemplate>
-                        
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                <MenuItem Text="Remover" Clicked="MenuItem_Clicked"/>
+                            
+                            </ViewCell.ContextActions>
+                                <Grid RowDefinitions="Auto" ColumnDefinitions="*, Auto,Auto">
+                                    <Label Grid.Row="0" Grid.Column="0" Text="{Binding descricao}"/>
+                                    <Label Grid.Row="0" Grid.Column="1" Text="{Binding quantidade}"/>
+                                    <Label Grid.Row="0" Grid.Column="2" Text="{Binding preco}"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
                     </ListView.ItemTemplate>
                     
                 </ListView>
