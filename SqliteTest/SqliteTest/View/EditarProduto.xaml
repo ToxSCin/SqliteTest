@@ -13,7 +13,7 @@
             <Entry x:Name="txt_descricao" Text="{Binding descricao}"/>
 
             <Label Text="Quantidade: "/>
-            <Entry x:Name="txt_qntd" Text="{Binding quantidade}"/>
+            <Entry x:Name="" Text="{Binding quantidade}"/>
 
             <Label Text="Preço: "/>
             <Entry x:Name="txt_preco" Text="{Binding preco}"/>
